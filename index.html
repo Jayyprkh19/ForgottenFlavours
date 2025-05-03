@@ -1,0 +1,89 @@
+<!--
+Multi-Page Site: Forgotten Flavors (Inspired by worldwildlife.org)
+Author: Jay (Guided by ChatGPT)
+-->
+
+<!-- index.html - Home Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forgotten Flavors</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Anime.js for animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-green-900 text-white p-4 flex justify-between items-center">
+    <div class="text-xl font-bold">🌿 Forgotten Flavors</div>
+    <ul class="flex gap-6">
+      <li><a href="/index.html" class="hover:underline">Home</a></li>
+      <li><a href="/climate.html" class="hover:underline">Climate Change</a></li>
+      <li><a href="/solutions.html" class="hover:underline">Solutions</a></li>
+      <li><a href="/contact.html" class="hover:underline">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section with Background Image -->
+  <section class="relative h-screen bg-cover bg-center" style="background-image: url('images/New\ Project.png');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <h1 id="main-title" class="text-5xl text-white font-extrabold text-center px-4">Preserving Earth's Rare and Endangered Species</h1>
+    </div>
+  </section>
+
+  <!-- Description Section -->
+  <section class="max-w-5xl mx-auto py-10 px-4">
+    <h2 class="text-3xl font-semibold mb-4">What is Forgotten Flavors?</h2>
+    <p class="text-lg text-gray-700 leading-relaxed">
+      "Forgotten Flavors is a student showcase project I created for my Web Technology subject. Inspired by resources like worldwildlife.org, this website highlights the unique and endangered spices and animals that are often overlooked. Many of these are threatened by climate change, deforestation, and overharvesting. Through this site, I aim to raise awareness and share the beauty of these forgotten natural treasures.
+    </p>
+  </section>
+
+  <!-- Species Classification Section -->
+  <section class="bg-gray-100 py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-8 text-center">Classification of Endangered Species</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <h3 class="text-xl font-semibold mb-1">🟥 Critically Endangered</h3>
+          <p class="text-sm text-gray-600">On the verge of extinction without immediate conservation action.</p>
+          <a href="critically.html" class="text-green-800 mt-2 inline-block hover:underline">View Details →</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <h3 class="text-xl font-semibold mb-2">🟧 Endangered</h3>
+          <p class="text-sm text-gray-600">Very high risk of extinction in the wild in the near future.</p>
+          <a href="endangered.html" class="text-green-800 mt-2 inline-block hover:underline">View Details →</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <h3 class="text-xl font-semibold mb-2">🟨 Vulnerable</h3>
+          <p class="text-sm text-gray-600">High risk of endangerment in the medium term.</p>
+          <a href="vulnerable.html" class="text-green-800 mt-2 inline-block hover:underline">View Details →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-900 text-white text-center py-6 mt-10">
+    <p class="text-sm">© 2025 Forgotten Flavors. Inspired by worldwildlife.org. Built by @JAYPAREKH.</p>
+  </footer>
+
+
+
+</body>
+</html>
+
+
